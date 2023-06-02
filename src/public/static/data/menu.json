@@ -1,0 +1,42 @@
+{
+  "menuPrimary": {
+    "menu_1": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "Payment",
+        "url": "https://pages.razorpay.com/pl_H93cXb3wO2cetp/view",
+        "isRedirect": true
+      },
+      {
+        "text": "News & Updates",
+        "url": "http://www.biotechhealthcare.com/blog/news/",
+        "isRedirect": true
+      },
+      {
+        "text": "Offerzone",
+        "url": "/account/offers"
+      }
+      
+    ],
+    "menu_2": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "News & Updates",
+        "url": "http://www.biotechhealthcare.com/blog/news/",
+        "isRedirect": true
+      },
+      {
+        "text": "Offerzone",
+        "url": "/account/offers"
+      }
+      
+    ],
+    "product_categories": [ {} ]
+  }
+}

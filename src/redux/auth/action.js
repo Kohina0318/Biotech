@@ -1,0 +1,36 @@
+export const actionTypes = {
+  LOGIN_REQUEST: "LOGIN_REQUEST",
+  LOGIN_SUCCESS: "LOGIN_SUCCESS",
+  LOGOUT: "LOGOUT",
+  LOGOUT_SUCCESS: "LOGOUT_SUCCESS",
+  CHECK_AUTHORIZATION: "CHECK_AUTHORIZATION",
+
+  // CUSTOM SETUP
+  APP_FIRST_START: "APP_FIRST_START",
+  APP_DEFAULT: "APP_DEFAULT",
+  LOGIN_USER: "LOGIN_USER",
+  REGISTER_USER: "REGISTER_USER",
+  GET_COUNTRIES: "GET_COUNTRIES",
+  REGISTER_REQEUST: "REGISTER_REQEUST",
+  RESET_PASSWORD_REQUEST: "RESET_PASSWORD_REQUEST",
+  DEFAULT_ADDRESS: "DEFAULT_ADDRESS",
+  KYC_REQUEST: "KYC_REQUEST",
+  FETCH_IP_DATA: "FETCH_IP_DATA",
+  WebAPP_CONFIGURATION: "WebAPP_CONFIGURATION",
+};
+
+export function login() {
+  return { type: actionTypes.LOGIN_REQUEST };
+}
+
+export function loginSuccess() {
+  return { type: actionTypes.LOGIN_SUCCESS };
+}
+
+export function logOut() {
+  return { type: actionTypes.LOGOUT };
+}
+
+export function logOutSuccess() {
+  return { type: actionTypes.LOGOUT_SUCCESS };
+}

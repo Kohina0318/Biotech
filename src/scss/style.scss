@@ -1,0 +1,325 @@
+@import "~antd/dist/antd.css";
+@import "vendor/bourbon/bourbon";
+@import "utils/mixin";
+
+@import "vendor/media_query";
+
+@import "utils/variable";
+
+/*1. RESET AND TYPHOGRAPHY */
+
+//1.1 reset
+@import "base/antdesign_reset";
+@import "base/reset";
+//1.2 typhography
+@import "base/typhography";
+
+/*2. ELEMENTS */
+//2.1 grid
+@import "elements/grid";
+// 2.2 list
+@import "elements/list";
+// 2.3 button
+@import "elements/button";
+// 2.4 form
+@import "elements/form";
+//2.5 post
+@import "elements/post";
+// 2.6 pagination
+@import "elements/pagination";
+// 2.7 breadcrumb
+@import "elements/breadcrumb";
+// 2.8 block
+@import "elements/block";
+
+@import "elements/panel";
+// 2.9 widget
+@import "elements/widget";
+// 2.10 slider
+@import "elements/slider";
+// 2.11 masonry
+// 2.12 product
+@import "elements/product";
+// 2.13 banner
+@import "elements/banner";
+// 2.14 filter
+@import "elements/filter";
+// 2.15 table
+@import "elements/table";
+// 2.16 loader
+@import "elements/loader";
+// 2.17 modal
+@import "elements/modal";
+// 2.17 accordion
+
+@import "elements/accordion";
+
+// 2.18 modal
+@import "elements/tabs";
+
+/*3. COMPONENTS */
+// 3.1 Cart
+@import "components/cart";
+// 3.2 forms
+@import "components/forms";
+// 3.3 search
+@import "components/search";
+// 3.4 section
+@import "components/section";
+// 3.5 pages
+@import "components/pages";
+
+@import "components/menu";
+
+/*4. MODULES */
+// 4.1 header
+@import "modules/navigations";
+@import "modules/header";
+// 4.2 footer
+@import "modules/footer";
+
+@import "themes/effect";
+
+/*5. HELPERS */
+@import "elements/helpers";
+
+.terms-container {
+  padding: 10px 0;
+  a {
+    color: #1890ff;
+  }
+}
+
+.password-helper {
+  font-size: 12px;
+}
+
+.display-center {
+  .ant-form-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.ps-form-kyc-account {
+  .optional-kyc-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .mandatory-kyc-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .ant-card-head-title {
+      color: #ff4d4f;
+    }
+  }
+
+  .ant-tabs-nav {
+    margin: 0 !important;
+  }
+}
+
+.ps-list--categories {
+  .active {
+    color: #09c;
+  }
+}
+
+.ps-top-categories-home {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.field-required {
+  color: #ff4d4f;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .image-container {
+    cursor: pointer;
+  }
+}
+
+.quick-links {
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.right {
+  text-align: right;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ps-footer__widgets {
+  padding-bottom: 0px !important;
+}
+
+.ps-btn--fullwidth:hover {
+  color: #fff !important;
+}
+
+.combo-product-details {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+  .ps-product__desc-combo {
+    border-bottom: none;
+  }
+  .ps-product--fullwidth {
+    margin-bottom: 0;
+  }
+}
+
+.text-container {
+  a {
+    color: #1890ff;
+  }
+}
+
+.theme-color {
+  color: $color-1st;
+}
+
+.gray-color {
+  background-color: #e2e2e2;
+}
+
+.ps-form--user-info {
+  .ps-form__content {
+    figcaption {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  .field-title {
+    min-width: 60px;
+  }
+  .field-value {
+    font-weight: bold;
+  }
+}
+
+.ps-form--address-info {
+  .ps-form__content {
+    figcaption {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+
+  .field-title {
+    min-width: 110px;
+  }
+  .field-value {
+    font-weight: bold;
+  }
+}
+
+.product-combo-info {
+  .ps-btn {
+    margin-left: 30px;
+  }
+}
+
+.kyc-verification-strip {
+  background-color: #e69a8dff;
+  width: 450px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.payment-conformation {
+  .item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .name {
+      font-weight: bold;
+    }
+  }
+
+  .coupons-container {
+    border-top: 1px solid #000000ad;
+    border-bottom: 1px solid #000000ad;
+    margin: 15px 0 0;
+    h4 {
+      margin-top: 10px;
+    }
+  }
+
+  .button-container {
+    margin-top: 15px;
+  }
+
+  .ps-block--payment-method {
+    margin-bottom: 25px;
+  }
+
+  .ps-block__content {
+    margin-bottom: 25px;
+  }
+}
+
+.table-image-container {
+  position: relative;
+  height: "100px";
+  width: "100px";
+  .discount-container {
+    background-color: #ccc;
+    border: 1px solid #e2e2e2;
+    border-radius: 15px;
+    position: absolute;
+    font-size: 14px;
+    padding: 5px;
+    top: 12px;
+    right: 0;
+  }
+}
+
+.addresses-container {
+  cursor: pointer;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  &.active {
+    background-color: #40e0d04f;
+  }
+}
+
+.attribute-wrapper {
+  .attribute-container {
+    display: flex;
+    .attribute {
+      margin: 15px 10px 0;
+      .title-container {
+        margin: 5px 0;
+      }
+    }
+  }
+  .search-container {
+    margin: 15px 10px 30px;
+  }
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}

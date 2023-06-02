@@ -1,0 +1,18 @@
+export const actionTypes = {
+  SWITCH_DEMO_PANEL: "SWITCH_DEMO_PANEL",
+  SWITCH_DEMO_PANEL_SUCCESS: "SWITCH_DEMO_PANEL_SUCCESS",
+  FETCH_CATEGORIES: "FETCH_CATEGORIES",
+  FETCH_CART_DATA: "FETCH_CART_DATA",
+  FETCH_LANGUAGE_LIST: "FETCH_LANGUAGE_LIST",
+  FETCH_SELECTED_LANGUAGE_DATA: "FETCH_SELECTED_LANGUAGE_DATA",
+  FETCH_LANGUAGE_LOCAL: "FETCH_LANGUAGE_LOCAL",
+  UPDATE_USER_LANGUAGE: "UPDATE_USER_LANGUAGE",
+};
+
+export function switchDemoPanel(payload) {
+  return { type: actionTypes.SWITCH_DEMO_PANEL, payload };
+}
+
+export function switchDemoPanelSuccess(payload) {
+  return { type: actionTypes.SWITCH_DEMO_PANEL_SUCCESS, payload };
+}
